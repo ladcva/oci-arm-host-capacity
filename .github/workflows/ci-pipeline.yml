@@ -36,7 +36,7 @@ jobs:
       run: composer update
       
     - name: Run PHP Script and export the log file
-        php index.php > log.txt
+      run: php index.php > log.txt
         
         
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
