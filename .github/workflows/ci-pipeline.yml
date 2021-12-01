@@ -37,6 +37,9 @@ jobs:
       
     - name: Run PHP Script and export the log file
       run: php index.php > log.txt
+      
+    - name: Display log
+      run: cat log.txt
         
         
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
