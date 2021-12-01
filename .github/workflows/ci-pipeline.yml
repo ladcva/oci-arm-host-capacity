@@ -29,11 +29,11 @@ jobs:
 #         restore-keys: |
 #           ${{ runner.os }}-php-
 
-    - name: Install dependencies
-      run: composer install
-        
     - name: Update dependencies
       run: composer update
+
+    - name: Install dependencies
+      run: composer install
       
     - name: Run PHP Script and export the log file
       run: php index.php > log.txt
