@@ -25,8 +25,8 @@ class OciConfig
         string $availabilityDomain,
         string $subnetId,
         string $imageId,
-        int $ocups = 16,
-        int $memoryInGBs = 96
+        int $ocups = 4,
+        int $memoryInGBs = 24
     )
     {
         $this->region = $region;
