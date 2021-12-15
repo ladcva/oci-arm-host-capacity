@@ -18,8 +18,8 @@ $config1 = new OciConfig(
     getenv('OCI_AVAILABILITY_DOMAIN') ?: 'Cplu:AP-SINGAPORE-1-AD-1', // availabilityDomain
     getenv('OCI_SUBNET_ID') ?: 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaaosyfpkxwbxaqwzem2d2qnj2twmdsjrxc2bhiz23km2eol4jcnvla', // subnetId
     getenv('OCI_IMAGE_ID') ?: 'ocid1.image.oc1.ap-singapore-1.aaaaaaaa3vsfhyvqje5yyn2vrr52tfnm5j2xovxyl2uojexvead5mesrh7ba', // imageId
-    (int) getenv('OCI_OCPUS') ?: 16,
-    (int) getenv('OCI_MEMORY_IN_GBS') ?: 96
+    (int) getenv('OCI_OCPUS') ?: 4,
+    (int) getenv('OCI_MEMORY_IN_GBS') ?: 24
 );
 
 $configs = [
